@@ -10,10 +10,20 @@
 <body>
   <div class="content">
     <div class="block left-block">
-
+      <a href="index.html">Back</a>
     </div>
-    <div class="center-block">
+    <div class="center-block contact-content">
+      <h1>Contact</h1>
+      <form name="contact-form" onsubmit="handleSubmit()">
+        <label for="email">Your email:</label><br>
+        <input type="text" id="email" name="email" onblur="validate()" required><br>
 
+        <label for="message">Message:</label><br>
+        <textarea type="text" id="message" name="message" required></textarea><br><br>
+        
+        <input type="submit" value="Send">
+        
+      </form> 
     </div>
     <div class="block right-block">
 
@@ -23,4 +33,5 @@
 
   </div>
 </body>
+<script src="index.js"></script>
 </html>
