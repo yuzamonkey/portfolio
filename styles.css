@@ -58,6 +58,18 @@ a {
   position: fixed;
   top: 0;
   z-index: 15;
+  animation: from-up 1s ease;
+}
+
+@keyframes from-up {
+  0% {
+    top: -40px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
 }
 
 .navigation-items {
@@ -106,8 +118,8 @@ a {
   width: 98vw;
 }
 
-.title-container {
-}
+/* .title-container {
+} */
 
 .content {
   height: 100%;
@@ -120,10 +132,100 @@ a {
   z-index: 10;
   background-image: linear-gradient(var(--dark-blue), var(--blue));
   justify-content: center;
+  position: relative;
+  animation: colorAnimation 1s ease;
+}
+
+@keyframes colorAnimation {
+  0% {
+    background-image: linear-gradient(hsl(192, 100%, 42%), var(--blue));
+  }
+  5% {
+    background-image: linear-gradient(hsl(192, 100%, 41%), var(--blue));
+  }
+  10% {
+    background-image: linear-gradient(hsl(192, 100%, 40%), var(--blue));
+  }
+  15% {
+    background-image: linear-gradient(hsl(192, 100%, 39%), var(--blue));
+  }
+  20% {
+    background-image: linear-gradient(hsl(192, 100%, 38%), var(--blue));
+  }
+  5% {
+    background-image: linear-gradient(hsl(192, 100%, 37%), var(--blue));
+  }
+  30% {
+    background-image: linear-gradient(hsl(192, 100%, 36%), var(--blue));
+  }
+  35% {
+    background-image: linear-gradient(hsl(192, 100%, 35%), var(--blue));
+  }
+  40% {
+    background-image: linear-gradient(hsl(192, 100%, 34%), var(--blue));
+  }
+  45% {
+    background-image: linear-gradient(hsl(192, 100%, 33%), var(--blue));
+  }
+  50% {
+    background-image: linear-gradient(hsl(192, 100%, 32%), var(--blue));
+  }
+  55% {
+    background-image: linear-gradient(hsl(192, 100%, 31%), var(--blue));
+  }
+  60% {
+    background-image: linear-gradient(hsl(192, 100%, 30%), var(--blue));
+  }
+  65% {
+    background-image: linear-gradient(hsl(192, 100%, 29%), var(--blue));
+  }
+  70% {
+    background-image: linear-gradient(hsl(192, 100%, 28%), var(--blue));
+  }
+  75% {
+    background-image: linear-gradient(hsl(192, 100%, 27%), var(--blue));
+  }
+  80% {
+    background-image: linear-gradient(hsl(192, 100%, 26%), var(--blue));
+  }
+  85% {
+    background-image: linear-gradient(hsl(192, 100%, 25%), var(--blue));
+  }
+  90% {
+    background-image: linear-gradient(hsl(192, 100%, 24%), var(--blue));
+  }
+  95% {
+    background-image: linear-gradient(hsl(192, 100%, 23%), var(--blue));
+  }
+  100% {
+    background-image: linear-gradient(hsl(192, 100%, 22%), var(--blue));
+  }
 }
 
 .main h1, .main p {
   white-space: nowrap;
+}
+
+.foobar {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 45%;
+  animation: from-down 1s ease;
+}
+
+@keyframes from-down {
+  0% {
+    top: 70%;
+    opacity: 0;
+  }
+  100% {
+    top: 45%;
+    opacity: 1;
+  }
 }
 
 .about {
@@ -184,11 +286,10 @@ a {
   text-align: center;
 }
 
-@media screen  and (max-width: 430px){
+@media screen and (max-width: 430px) {
   h1 {
     font-size: 4rem;
   }
-  
   h2 {
     font-size: 3rem;
   }
@@ -203,7 +304,6 @@ a {
     border-radius: 50%;
     box-shadow: 0 0 5pt var(--light-transparent);
   }
-  
   .back-to-top-link {
     color: var(--black);
   }
@@ -211,7 +311,8 @@ a {
     width: 180px;
   }
 }
-@media screen  and (max-width: 350px){
+
+@media screen and (max-width: 350px) {
   .navigation-items>* {
     font-size: 0.9rem;
   }
