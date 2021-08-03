@@ -138,64 +138,64 @@ a {
 
 @keyframes colorAnimation {
   0% {
-    background-image: linear-gradient(hsl(192, 100%, 42%), var(--blue));
+    background-image: linear-gradient(hsl(192, 100%, 2%), var(--blue));
   }
   5% {
-    background-image: linear-gradient(hsl(192, 100%, 41%), var(--blue));
+    background-image: linear-gradient(hsl(192, 100%, 3%), var(--blue));
   }
   10% {
-    background-image: linear-gradient(hsl(192, 100%, 40%), var(--blue));
+    background-image: linear-gradient(hsl(192, 100%, 4%), var(--blue));
   }
   15% {
-    background-image: linear-gradient(hsl(192, 100%, 39%), var(--blue));
+    background-image: linear-gradient(hsl(192, 100%, 5%), var(--blue));
   }
   20% {
-    background-image: linear-gradient(hsl(192, 100%, 38%), var(--blue));
+    background-image: linear-gradient(hsl(192, 100%, 6%), var(--blue));
   }
   5% {
-    background-image: linear-gradient(hsl(192, 100%, 37%), var(--blue));
+    background-image: linear-gradient(hsl(192, 100%, 7%), var(--blue));
   }
   30% {
-    background-image: linear-gradient(hsl(192, 100%, 36%), var(--blue));
+    background-image: linear-gradient(hsl(192, 100%, 8%), var(--blue));
   }
   35% {
-    background-image: linear-gradient(hsl(192, 100%, 35%), var(--blue));
+    background-image: linear-gradient(hsl(192, 100%, 9%), var(--blue));
   }
   40% {
-    background-image: linear-gradient(hsl(192, 100%, 34%), var(--blue));
+    background-image: linear-gradient(hsl(192, 100%, 10%), var(--blue));
   }
   45% {
-    background-image: linear-gradient(hsl(192, 100%, 33%), var(--blue));
+    background-image: linear-gradient(hsl(192, 100%, 11%), var(--blue));
   }
   50% {
-    background-image: linear-gradient(hsl(192, 100%, 32%), var(--blue));
+    background-image: linear-gradient(hsl(192, 100%, 12%), var(--blue));
   }
   55% {
-    background-image: linear-gradient(hsl(192, 100%, 31%), var(--blue));
+    background-image: linear-gradient(hsl(192, 100%, 13%), var(--blue));
   }
   60% {
-    background-image: linear-gradient(hsl(192, 100%, 30%), var(--blue));
+    background-image: linear-gradient(hsl(192, 100%, 14%), var(--blue));
   }
   65% {
-    background-image: linear-gradient(hsl(192, 100%, 29%), var(--blue));
+    background-image: linear-gradient(hsl(192, 100%, 15%), var(--blue));
   }
   70% {
-    background-image: linear-gradient(hsl(192, 100%, 28%), var(--blue));
+    background-image: linear-gradient(hsl(192, 100%, 16%), var(--blue));
   }
   75% {
-    background-image: linear-gradient(hsl(192, 100%, 27%), var(--blue));
+    background-image: linear-gradient(hsl(192, 100%, 17%), var(--blue));
   }
   80% {
-    background-image: linear-gradient(hsl(192, 100%, 26%), var(--blue));
+    background-image: linear-gradient(hsl(192, 100%, 18%), var(--blue));
   }
   85% {
-    background-image: linear-gradient(hsl(192, 100%, 25%), var(--blue));
+    background-image: linear-gradient(hsl(192, 100%, 19%), var(--blue));
   }
   90% {
-    background-image: linear-gradient(hsl(192, 100%, 24%), var(--blue));
+    background-image: linear-gradient(hsl(192, 100%, 20%), var(--blue));
   }
   95% {
-    background-image: linear-gradient(hsl(192, 100%, 23%), var(--blue));
+    background-image: linear-gradient(hsl(192, 100%, 21%), var(--blue));
   }
   100% {
     background-image: linear-gradient(hsl(192, 100%, 22%), var(--blue));
