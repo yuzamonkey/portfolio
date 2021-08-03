@@ -1,6 +1,6 @@
 :root {
   --white: rgba(240, 240, 240, 0.795);
-  --transparent-white: hsla(0, 0%, 100%, 0.815);
+  --transparent-white: hsla(0, 0%, 100%, 0.534);
   --light-transparent: hsla(0, 0%, 100%, 0.459);
   --blue: #0087a8;
   --dark-blue: #005b72;
@@ -8,8 +8,8 @@
   --dark-red: #740023;
   --green: #00795a;
   --dark-green: #005741;
-  --orange: #ff7300;
-  --dark-orange: #db6300;
+  --orange: #fd7200;
+  --dark-orange: #9c4600;
   --grey: #464646;
   --black: #272727;
   --navigation-height: 40px;
@@ -23,7 +23,7 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-weight: 200;
+  font-weight: 230;
   color: var(--white)
 }
 
@@ -129,6 +129,14 @@ p {
 
 .contact {
   background-image: linear-gradient(var(--black), var(--grey));
+  overflow: scroll;
+}
+
+.image-container img {
+  width: 200px;
+  height: 200px;
+  box-shadow: 0pt 0pt 3pt 3pt var(--light-transparent);
+  border-radius: 50%;
 }
 
 .back-to-top-container {
