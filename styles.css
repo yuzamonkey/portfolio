@@ -206,7 +206,7 @@ a {
   white-space: nowrap;
 }
 
-.foobar {
+.main .section-container {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
@@ -286,6 +286,19 @@ a {
   text-align: center;
 }
 
+
+
+@media screen and (max-width: 768px) {
+  .back-to-top-container {
+    background-color: var(--light-transparent);
+    border-radius: 50%;
+    box-shadow: 0 0 5pt var(--light-transparent);
+  }
+  .back-to-top-link {
+    color: var(--black);
+  }
+}
+
 @media screen and (max-width: 430px) {
   h1 {
     font-size: 4rem;
@@ -299,14 +312,7 @@ a {
   .contact .content {
     line-height: 2rem;
   }
-  .back-to-top-container {
-    background-color: var(--light-transparent);
-    border-radius: 50%;
-    box-shadow: 0 0 5pt var(--light-transparent);
-  }
-  .back-to-top-link {
-    color: var(--black);
-  }
+
   .image-container img {
     width: 180px;
   }
