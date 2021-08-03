@@ -1,7 +1,8 @@
 :root {
-  --white: rgba(240, 240, 240, 0.795);
+  --white: hsla(0, 0%, 94%, 0.796);
   --transparent-white: hsla(0, 0%, 100%, 0.534);
   --light-transparent: hsla(0, 0%, 100%, 0.459);
+  --very-light-transparent: hsla(0, 0%, 100%, 0.116);
   --blue: #0087a8;
   --dark-blue: #005b72;
   --red: #ba0038;
@@ -40,7 +41,8 @@ p {
 }
 
 .secondary-text {
-  color: var(--transparent-white);
+  /* color: var(--transparent-white); */
+  color: var(--light-transparent);
 }
 
 /* NAVIGATION */
@@ -129,14 +131,25 @@ p {
 
 .contact {
   background-image: linear-gradient(var(--black), var(--grey));
-  overflow: scroll;
+}
+
+.contact .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 3rem;
 }
 
 .image-container img {
-  width: 200px;
-  height: 200px;
-  box-shadow: 0pt 0pt 3pt 3pt var(--light-transparent);
+  box-shadow: 0pt 0pt 8pt var(--light-transparent);
   border-radius: 50%;
+}
+
+.links > *{
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
 }
 
 .back-to-top-container {
