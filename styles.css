@@ -1,6 +1,40 @@
+:root {
+  --white: rgba(240, 240, 240, 0.795);
+  --tp-white: hsla(0, 0%, 100%, 0.815);
+  --blue: #0087a8;
+  --dark-blue: #005b72;
+  --red: #ba0038;
+  --dark-red: #740023;
+  --bg-grey: hsla(192, 17%, 60%, 0.52);
+  --grey: #ccd8db;
+  --black: #242424;
+}
+
 * {
   padding: 0;
   margin: 0;
+  /* font-family: 'Montserrat', sans-serif;
+  font-weight: 100; */
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 200;
+  color: var(--white)
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.secondary-text {
+  color: var(--tp-white);
 }
 
 .navigation-container {
@@ -21,8 +55,10 @@
   align-items: center;
 }
 
-.navigation-items>* {
+.navigation-items > * {
   margin: 0 10px;
+  text-decoration: none;
+  font-weight: 230;
 }
 
 .scroll-elements {
@@ -50,7 +86,27 @@
 
 .main-section {
   z-index: 10;
-  background-image: linear-gradient(lightblue, navy);
+  background-image: linear-gradient(var(--dark-blue), var(--blue));
+}
+
+.about-section {
+  z-index: 10;
+  background-image: linear-gradient(var(--dark-blue), var(--blue));
+}
+
+.programming-section {
+  z-index: 10;
+  background-image: linear-gradient(var(--dark-blue), var(--blue));
+}
+
+.music-section {
+  z-index: 10;
+  background-image: linear-gradient(var(--dark-red), var(--red));
+}
+
+.contact-section {
+  z-index: 10;
+  background-image: linear-gradient(var(--dark-blue), var(--blue));
 }
 
 .back-to-top-container {
@@ -68,9 +124,9 @@
 .back-to-top-link {
   text-decoration: none;
   font-size: 35px;
-  color: hsla(0, 0%, 85%, 0.534);
+  color: var(--tp-white);
   position: absolute;
-  top: -8px;
+  /* top: -8px; */
   margin-left: auto;
   margin-right: auto;
   left: 0;
