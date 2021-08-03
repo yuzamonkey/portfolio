@@ -1,13 +1,18 @@
 :root {
   --white: rgba(240, 240, 240, 0.795);
-  --tp-white: hsla(0, 0%, 100%, 0.815);
+  --transparent-white: hsla(0, 0%, 100%, 0.815);
+  --light-transparent: hsla(0, 0%, 100%, 0.459);
   --blue: #0087a8;
   --dark-blue: #005b72;
   --red: #ba0038;
   --dark-red: #740023;
-  --bg-grey: hsla(192, 17%, 60%, 0.52);
-  --grey: #ccd8db;
-  --black: #242424;
+  --green: #00795a;
+  --dark-green: #005741;
+  --orange: #ff7300;
+  --dark-orange: #db6300;
+
+  --grey: #464646;
+  --black: #272727;
 }
 
 * {
@@ -34,7 +39,7 @@ p {
 }
 
 .secondary-text {
-  color: var(--tp-white);
+  color: var(--transparent-white);
 }
 
 .navigation-container {
@@ -90,23 +95,19 @@ p {
 }
 
 .about-section {
-  z-index: 10;
-  background-image: linear-gradient(var(--dark-blue), var(--blue));
+  background-image: linear-gradient(var(--dark-green), var(--green));
 }
 
 .programming-section {
-  z-index: 10;
-  background-image: linear-gradient(var(--dark-blue), var(--blue));
+  background-image: linear-gradient(var(--dark-orange), var(--orange));
 }
 
 .music-section {
-  z-index: 10;
   background-image: linear-gradient(var(--dark-red), var(--red));
 }
 
 .contact-section {
-  z-index: 10;
-  background-image: linear-gradient(var(--dark-blue), var(--blue));
+  background-image: linear-gradient(var(--black), var(--grey));
 }
 
 .back-to-top-container {
@@ -124,9 +125,9 @@ p {
 .back-to-top-link {
   text-decoration: none;
   font-size: 35px;
-  color: var(--tp-white);
+  color: var(--light-transparent);
   position: absolute;
-  /* top: -8px; */
+  top: -8px;
   margin-left: auto;
   margin-right: auto;
   left: 0;
