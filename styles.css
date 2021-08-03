@@ -40,8 +40,12 @@ p {
   font-size: 1.5rem;
 }
 
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
 .secondary-text {
-  /* color: var(--transparent-white); */
   color: var(--light-transparent);
 }
 
@@ -67,7 +71,7 @@ p {
 
 .navigation-items>* {
   margin: 0 10px;
-  text-decoration: none;
+  font-size: 1.1rem;
   font-weight: 230;
 }
 
@@ -146,7 +150,7 @@ p {
   border-radius: 50%;
 }
 
-.links > *{
+.links>* {
   filter: invert(93%) sepia(91%) saturate(138%) hue-rotate(279deg) brightness(113%) contrast(88%);
   padding: 10px;
   margin: 10px;
