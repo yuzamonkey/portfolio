@@ -147,6 +147,7 @@ p {
 }
 
 .links > *{
+  filter: invert(93%) sepia(91%) saturate(138%) hue-rotate(279deg) brightness(113%) contrast(88%);
   padding: 10px;
   margin: 10px;
   text-decoration: none;
