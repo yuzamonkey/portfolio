@@ -151,6 +151,7 @@ a {
   overflow: scroll;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .card-text h3, .card-text p {
