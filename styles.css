@@ -127,18 +127,15 @@ a {
   height: 200px;
   background-color: var(--white);
   margin: 10px 0;
-
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;
-
   border-radius: 10px;
   box-shadow: 0 0 2pt var(--light-transparent);
-
   transition: background-color 250ms ease-in-out;
 }
 
-.card > * {
+.card>* {
   padding: 0 10px;
 }
 
@@ -151,7 +148,7 @@ a {
   overflow: scroll;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-start;
 }
 
 .card-text h3, .card-text p {
@@ -160,6 +157,7 @@ a {
 
 .card-text h3 {
   font-weight: 245;
+  margin: 10px 0;
 }
 
 .image-and-link {
@@ -167,7 +165,7 @@ a {
   flex-direction: column;
 }
 
-.image-and-link > * {
+.image-and-link>* {
   margin: 5px;
 }
 
@@ -183,7 +181,6 @@ a {
   font-size: 1.2rem;
   border-radius: 5px;
   padding: 5px;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -208,14 +205,14 @@ a {
 }
 
 .main .section-container {
-  height: auto;
+  height: 250px;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
   text-align: center;
-  top: 45%;
+  top: 40%;
   animation: from-down 1s ease;
 }
 
@@ -267,6 +264,8 @@ a {
   text-decoration: none;
 }
 
+/* BACK TO TOP BUTTON */
+
 .back-to-top-container {
   width: 40px;
   height: 40px;
@@ -288,6 +287,8 @@ a {
   text-align: center;
 }
 
+/* MEDIA SCREENS */
+
 @media screen and (max-width: 768px) {
   .back-to-top-container {
     background-color: var(--light-transparent);
@@ -306,8 +307,14 @@ a {
   h2 {
     font-size: 3rem;
   }
+  p {
+    font-size: 1rem;
+  }
   .navigation-items {
     justify-content: space-between;
+  }
+  .card-text h3 {
+    font-size: 1.5rem;
   }
   .contact .content {
     line-height: 2rem;
@@ -323,6 +330,8 @@ a {
   }
 }
 
+/* ANIMATIONS */
+
 @keyframes from-up {
   0% {
     top: -40px;
@@ -336,11 +345,11 @@ a {
 
 @keyframes from-down {
   0% {
-    top: 70%;
+    top: 65%;
     opacity: 0;
   }
   100% {
-    top: 45%;
+    top: 40%;
     opacity: 1;
   }
 }
