@@ -104,7 +104,6 @@ a {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  overflow-y: scroll;
 }
 
 .section-container {
@@ -112,6 +111,7 @@ a {
   display: flex;
   flex-direction: column;
   width: 98vw;
+  overflow-y: scroll;
 }
 
 /* .title-container {
@@ -155,6 +155,10 @@ a {
 
 .card-text h3, .card-text p {
   color: var(--black);
+}
+
+.card-text h3 {
+  font-weight: 245;
 }
 
 .image-and-link {
