@@ -152,7 +152,7 @@ a {
   justify-content: flex-start;
 }
 
-.card-text h3, .card-text p {
+.card-text h3, .card-text p, .card-text i {
   color: var(--black);
 }
 
@@ -238,6 +238,12 @@ a {
 
 .music {
   background-image: linear-gradient(var(--dark-red), var(--red));
+}
+
+.music .card .card-text p a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  color: var(--black);
 }
 
 .contact {
