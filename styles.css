@@ -238,6 +238,17 @@ a {
   background-image: linear-gradient(var(--dark-green), var(--green));
 }
 
+.about .section-container .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-text {
+  width: 80%;
+  height: 80%;
+}
+
 .programming {
   background-image: linear-gradient(var(--dark-orange), var(--orange));
 }
