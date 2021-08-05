@@ -156,6 +156,12 @@ a {
   color: var(--black);
 }
 
+.card-text p a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  color: var(--black);
+}
+
 .card-text h3 {
   font-weight: 245;
   margin: 10px 0;
@@ -238,12 +244,6 @@ a {
 
 .music {
   background-image: linear-gradient(var(--dark-red), var(--red));
-}
-
-.music .card .card-text p a {
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  color: var(--black);
 }
 
 .contact {
