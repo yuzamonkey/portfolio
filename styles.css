@@ -303,7 +303,7 @@ a {
     box-shadow: 0 0 5pt var(--light-transparent);
   }
   .back-to-top-link {
-    color: var(--black);
+    color: hsla(0, 0%, 15%, 0.5);
   }
 }
 
@@ -315,7 +315,7 @@ a {
     font-size: 3rem;
   }
   p, a {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .navigation-items {
     justify-content: space-between;
