@@ -160,6 +160,7 @@ a {
 .card-text p a {
   text-decoration: underline;
   text-decoration-thickness: 1px;
+  text-underline-offset: 0.25rem;
   color: var(--black);
 }
 
