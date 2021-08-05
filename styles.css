@@ -204,7 +204,7 @@ a {
   background-image: linear-gradient(var(--dark-blue), var(--blue));
   justify-content: center;
   position: relative;
-  animation: colorAnimation 1s ease;
+  animation: color-animation 1s ease;
 }
 
 .main h1, .main p {
@@ -246,7 +246,7 @@ a {
 
 .about-text {
   width: 80%;
-  height: 80%;
+  max-height: 95%;
 }
 
 .programming {
@@ -383,7 +383,7 @@ a {
   }
 }
 
-@keyframes colorAnimation {
+@keyframes color-animation {
   0% {
     background-image: linear-gradient(hsl(192, 100%, 2%), var(--blue));
   }
