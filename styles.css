@@ -323,6 +323,12 @@ a {
 
 /* MEDIA SCREENS */
 
+@media screen and (max-width: 1200px) {
+    .logo {
+        height: 40px;
+    }
+}
+
 @media screen and (max-width: 1045px) {
     .programming .title-container {
         flex-direction: column;
@@ -336,10 +342,6 @@ a {
 
     .logos-container::-webkit-scrollbar {
         display: none;
-    }
-
-    .logo {
-        height: 40px;
     }
 }
 
