@@ -1,1 +1,1 @@
-[yuzamonkey.github.io/resume](https://yuzamonkey.github.io/resume/)
+[yuzamonkey.github.io/portfolio](https://yuzamonkey.github.io/portfolio/)
