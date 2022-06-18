@@ -288,7 +288,8 @@ a {
 .image-container img {
     box-shadow: 0pt 0pt 8pt var(--light-transparent);
     border-radius: 50%;
-    width: 270px;
+    width: 300px;
+    /* height: 270px; */
 }
 
 .links>* {
